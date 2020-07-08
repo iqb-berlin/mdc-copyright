@@ -1,3 +1,3 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 # mdc-copyright
-Dieser Metadatenkatalog wird für Anwendungen verwendet, die Rechte Dritter verwalten.
+Metadata catalog - used for applications managing copyright issues of publications.

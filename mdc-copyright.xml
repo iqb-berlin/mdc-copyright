@@ -1,105 +1,71 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MDCat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/iqb-berlin/mdc-schemadefinition/master/mdc.xsd"
-       id="DOI:10.5159/IQB_MDR_Copyright_v1" version="1.0.1" versionhistory="">
-  <Label xml:lang="de">Katalog für Metadaten der Copyright-Datenbank des IQB</Label>
-  <Description xml:lang="de">Mit der Copyright-Datenbank verwaltet das IQB Ansprüche Dritter an Inhalten, die z. B. in Testaufgaben des IQB verwendet werden.</Description>
+<MDCat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://raw.githubusercontent.com/iqb-mdc/core/master/mdc.xsd" id="" version="" versionhistory="">
   <Owner xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</Owner>
   <Owner xml:lang="en">IQB - Institute for Educational Quality Improvement</Owner>
   <License>MIT</License>
   <DefaultMDDefMetadata />
   <MDDef id="1" type="listmultiselect">
     <Label xml:lang="de">Typ des Objektes</Label>
-    <Description xml:lang="de"></Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>list</ListControl>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Foto</Label>
-      <Label xml:lang="en" />
     </Value>
     <Value id="2">
       <Label xml:lang="de">Grafik/graf. Darstellung</Label>
-      <Label xml:lang="en" />
     </Value>
     <Value id="3">
       <Label xml:lang="de">Text</Label>
-      <Label xml:lang="en" />
     </Value>
     <Value id="4">
       <Label xml:lang="de">Audio</Label>
-      <Label xml:lang="en" />
     </Value>
     <Value id="5">
       <Label xml:lang="de">Daten</Label>
-      <Label xml:lang="en" />
     </Value>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
-    <TypeSpec>
-      <ListControl />
-    </TypeSpec>
   </MDDef>
   <MDDef id="2" type="date">
     <Label xml:lang="de">Ablauf Nutzungslizenz</Label>
-    <Description xml:lang="de"></Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
-    <TypeSpec>
-      <ListControl />
-    </TypeSpec>
   </MDDef>
   <MDDef id="3" type="textde">
     <Label xml:lang="de">Quelle Erstangabe</Label>
-    <Description xml:lang="de"></Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
   </MDDef>
   <MDDef id="4" type="textde">
     <Label xml:lang="de">Hinweise Auftraggeber/Projekte</Label>
-    <Description xml:lang="de"></Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
-    <TypeSpec>
-      <ListControl />
-    </TypeSpec>
   </MDDef>
   <MDDef id="5" type="listsingleselect">
     <Label xml:lang="de">Einschätzung Kosten</Label>
-    <Description xml:lang="de"></Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">12</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>list</ListControl>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">gering</Label>
-      <Label xml:lang="en" />
     </Value>
     <Value id="2">
       <Label xml:lang="de">mittel</Label>
-      <Label xml:lang="en" />
     </Value>
     <Value id="3">
       <Label xml:lang="de">hoch</Label>
-      <Label xml:lang="en" />
     </Value>
     <Value id="4">
       <Label xml:lang="de">unverschämt</Label>
-      <Label xml:lang="en" />
     </Value>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
-    <TypeSpec>
-      <ListControl />
-    </TypeSpec>
   </MDDef>
   <MDDef id="6" type="listsingleselect">
     <Label xml:lang="de">Rolle</Label>
@@ -107,92 +73,66 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">10</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>list</ListControl>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Urheber</Label>
-      <Label xml:lang="en" />
     </Value>
     <Value id="2">
       <Label xml:lang="de">Vermittler</Label>
-      <Label xml:lang="en" />
     </Value>
     <Value id="3">
       <Label xml:lang="de">Rechteverwerter</Label>
-      <Label xml:lang="en" />
     </Value>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
-    <TypeSpec>
-      <ListControl />
-    </TypeSpec>
   </MDDef>
   <MDDef id="7" type="listmultiselect">
     <Label xml:lang="de">Rechtetyp</Label>
-    <Description xml:lang="de"></Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>list</ListControl>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Urheber</Label>
-      <Label xml:lang="en" />
     </Value>
     <Value id="2">
       <Label xml:lang="de">Nutzungsrecht Bild</Label>
-      <Label xml:lang="en" />
     </Value>
     <Value id="3">
       <Label xml:lang="de">Nutzungsrecht Audio</Label>
-      <Label xml:lang="en" />
     </Value>
     <Value id="4">
       <Label xml:lang="de">?Hallo?</Label>
-      <Label xml:lang="en" />
     </Value>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
-    <TypeSpec>
-      <ListControl />
-    </TypeSpec>
   </MDDef>
   <MDDef id="8" type="textde">
     <Label xml:lang="de">Quelle geprüft</Label>
-    <Description xml:lang="de"></Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
   </MDDef>
   <MDDef id="9" type="date">
     <Label xml:lang="de">Prüftermin</Label>
-    <Description xml:lang="de"></Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
-    <TypeSpec>
-      <ListControl />
-    </TypeSpec>
   </MDDef>
   <MDDef id="10" type="listmultiselect">
     <Label xml:lang="de">Erteilte Rechte</Label>
-    <Description xml:lang="de"></Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>list</ListControl>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Print/Abdruck</Label>
-      <Label xml:lang="en" />
     </Value>
     <Value id="2">
       <Label xml:lang="de">Online</Label>
-      <Label xml:lang="en" />
     </Value>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
-    <TypeSpec>
-      <ListControl />
-    </TypeSpec>
   </MDDef>
   <MDDef id="11" type="textde">
     <Label xml:lang="de">Vorklärung Kontakte</Label>
@@ -200,11 +140,6 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
-    <TypeSpec>
-      <ListControl />
-    </TypeSpec>
   </MDDef>
   <MDDef id="12" type="textde">
     <Label xml:lang="de">Quelle - Änderungen</Label>
@@ -212,20 +147,13 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
   </MDDef>
-  <MDDef id="13" type="linkfolder">
+  <MDDef id="13" type="folderlink">
     <Label xml:lang="de">Ablageverzeichnis</Label>
     <Description xml:lang="de">Ort auf P:, in dem die Dateien zum Fall liegen</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
-    <TypeSpec>
-      <ListControl />
-    </TypeSpec>
   </MDDef>
   <MDDef id="14" type="textde">
     <Label xml:lang="de">Ergänzende Kontakte</Label>
@@ -233,11 +161,6 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
-    <TypeSpec>
-      <ListControl />
-    </TypeSpec>
   </MDDef>
   <MDDef id="15" type="textde">
     <Label xml:lang="de">Veränderungen</Label>
@@ -245,11 +168,6 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
-    <TypeSpec>
-      <ListControl />
-    </TypeSpec>
   </MDDef>
   <MDDef id="16" type="linkfile">
     <Label xml:lang="de">Vertragsdokument</Label>
@@ -257,11 +175,6 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
-    <TypeSpec>
-      <ListControl />
-    </TypeSpec>
   </MDDef>
   <MDDef id="17" type="linkfile">
     <Label xml:lang="de">Dokument Auftraggeber/in</Label>
@@ -269,11 +182,6 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
-    <TypeSpec>
-      <ListControl />
-    </TypeSpec>
   </MDDef>
   <MDDef id="18" type="textde">
     <Label xml:lang="de">Nutzungsvermerk Auflage</Label>
@@ -281,11 +189,6 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
-    <TypeSpec>
-      <ListControl />
-    </TypeSpec>
   </MDDef>
   <MDDef id="20" type="textde">
     <Label xml:lang="de">Bestätigter Nutzungszeitraum</Label>
@@ -293,11 +196,6 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
-    <TypeSpec>
-      <ListControl />
-    </TypeSpec>
   </MDDef>
   <MDDef id="21" type="textde">
     <Label xml:lang="de">Kosten</Label>
@@ -305,10 +203,5 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
-    <Label xml:lang="en" />
-    <Description xml:lang="en" />
-    <TypeSpec>
-      <ListControl />
-    </TypeSpec>
   </MDDef>
 </MDCat>
