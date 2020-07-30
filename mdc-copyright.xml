@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MDCat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://raw.githubusercontent.com/iqb-mdc/core/master/mdc.xsd" id="" version="" versionhistory="">
+<MDCat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/iqb-berlin/mdc-schemadefinition/master/mdc.xsd"
+       id=""
+       version="1.0.3" versionhistory="">
   <Label xml:lang="de">Katalog der Copyright-Datenbank des IQB</Label>
   <Owner xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</Owner>
   <Owner xml:lang="en">IQB - Institute for Educational Quality Improvement</Owner>
   <License>MIT</License>
-  <DefaultMDDefMetadata />
   <MDDef id="1" type="listmultiselect">
     <Label xml:lang="de">Typ des Objektes</Label>
     <MDDefMetadata>
@@ -170,14 +172,14 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
   </MDDef>
-  <MDDef id="16" type="linkfile">
+  <MDDef id="16" type="filelink">
     <Label xml:lang="de">Vertragsdokument</Label>
     <Description xml:lang="de">Dokument, in dem die vertraglichen balh</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
   </MDDef>
-  <MDDef id="17" type="linkfile">
+  <MDDef id="17" type="filelink">
     <Label xml:lang="de">Dokument Auftraggeber/in</Label>
     <Description xml:lang="de">Ein Link zu einem Dokument, das wichtige ergänzende Informationen zum Fall enthält.</Description>
     <MDDefMetadata>
