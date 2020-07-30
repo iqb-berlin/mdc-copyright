@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MDCat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://raw.githubusercontent.com/iqb-mdc/core/master/mdc.xsd" id="" version="" versionhistory="">
+  <Label xml:lang="de">Katalog der Copyright-Datenbank des IQB</Label>
   <Owner xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</Owner>
   <Owner xml:lang="en">IQB - Institute for Educational Quality Improvement</Owner>
   <License>MIT</License>
