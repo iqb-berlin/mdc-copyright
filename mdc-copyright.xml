@@ -42,12 +42,18 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="4" type="textde">
     <Label xml:lang="de">Hinweise Auftraggeber/Projekte</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="5" type="listsingleselect">
     <Label xml:lang="de">Einschätzung Kosten</Label>
@@ -115,6 +121,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="9" type="date">
     <Label xml:lang="de">Prüftermin</Label>
@@ -143,6 +152,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="12" type="textde">
     <Label xml:lang="de">Quelle - Änderungen</Label>
@@ -150,6 +162,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="13" type="folderlink">
     <Label xml:lang="de">Ablageverzeichnis</Label>
@@ -164,6 +179,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="15" type="textde">
     <Label xml:lang="de">Veränderungen</Label>
@@ -171,6 +189,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="16" type="filelink">
     <Label xml:lang="de">Vertragsdokument</Label>
@@ -192,6 +213,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="20" type="textde">
     <Label xml:lang="de">Bestätigter Nutzungszeitraum</Label>
@@ -199,6 +223,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="21" type="textde">
     <Label xml:lang="de">Kosten</Label>
@@ -206,5 +233,8 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">7</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
 </MDCat>
